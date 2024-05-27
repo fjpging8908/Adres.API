@@ -77,7 +77,7 @@ namespace Adres.API
                         Description = "Adres API",
                         Contact = new OpenApiContact
                         {
-                            Name = "LocalPayment",
+                            Name = "AdressApi",
                             Email = string.Empty,
                             Url = new Uri("https://www.Adres.com/"),
                         }
