@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire" Version="1.8.6" />
+    <PackageReference Include="LP.Common" Version="1.8.0" />
+    <PackageReference Include="LP.SharedKernel" Version="1.8.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Adres.API.Data.Contracts\Adres.API.Data.Contracts.csproj" />
+    <ProjectReference Include="..\Adres.API.Data\Adres.API.Data.csproj" />
+    <ProjectReference Include="..\Adres.API.Model\Adres.API.Model.csproj" />
+  </ItemGroup>
+
+</Project>
